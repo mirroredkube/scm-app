@@ -9,7 +9,7 @@ contract erc20Token is ERC20Interface {
     mapping (address => uint256) public balances;
     mapping (address => mapping (address => uint256)) public allowed;
 
-    uint256 public totSupply;           // Total number of tokens
+    uint256 public totSupply;             // Total number of tokens
     string public name;                   // Descriptive name (i.e. For Dummies Sample Token)
     uint8 public decimals;                // How many decimals to use when displaying amounts
     string public symbol;                 // Short identifier for token (i.e. FDT)
